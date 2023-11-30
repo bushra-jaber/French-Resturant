@@ -1,0 +1,471 @@
+/*
+public style
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.clerfix{
+    clear: both;
+}
+.overlay{
+    background-color: rgba(0,0, 0, .4);
+    height: 100vh;
+    
+}
+.container{
+    width: 90%;
+    margin: auto;
+ }/*
+end public style
+*/
+
+/*start header*/
+.header{
+    background-image: url('../img/shutterstock.jpg');
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    
+}
+.navbar{
+ padding-top: 20px;
+ position: fixed;
+ top:0;
+
+ width: 100%;
+
+
+}
+.logo{
+    float: left;
+    width: 40%;
+}
+.logo img{
+    height: 45px;
+    
+}
+.nav{
+    float: left;
+    width: 60%;
+    margin-top: 20px;
+}
+.nav ul li{
+    display :inline-block;
+    width: 80px;
+}
+.nav ul li a{
+    color:#fff;
+    font-size: 20px;
+}
+.header-content{
+    color: #fff;
+}
+.header-content img{
+padding-top: 80px;
+}
+.header-content h1{
+ font-size: 76px; 
+ margin-bottom: 10px;  
+}
+.header-content p{
+    font-size: 40px; 
+    margin-bottom: 10px;  
+    font-family: 'Dancing Script', cursive;
+   }
+   .header-content button{
+    padding: 10px 30px;
+   }
+
+   .header-content .learn{
+    background-color: #c1ab84;
+   color: #fff;
+    cursor: pointer;
+   }
+
+    .learn:hover {
+     background-color: #fff;
+       color: #000 ;
+   }
+.sites{
+    background-color:whitesmoke;
+     width: 40px;
+     height: 80px;
+     position: fixed;
+     top:200px;
+     right: 0px;
+     border-top-left-radius: 5px;
+     border-bottom-left-radius: 5px;
+     
+
+}
+.sites li{
+   padding:10px 10px;
+}
+.sites li a{
+color:#666;
+}
+.sites li :hover{
+    color: blue;
+}
+
+/*end header*/
+
+/*start sheef section*/
+
+.sheef-img{
+    width: 40%;
+    float: left;
+    padding: 70px 40px;
+}
+.sheef-dicription{
+    
+  width: 60%; 
+  float: left; 
+ margin-bottom: 10%;
+
+}
+.sheef-img img{
+    width: 100%;
+    
+}
+.info-sheef{
+    padding-top: 200px;
+}
+.info-sheef h2{
+    color: #253048;
+    font-size: 36px;
+    font-family: "Alegreya";
+    padding-bottom: 30px;
+    
+   
+}
+.info-sheef h3{
+    font-family: 'Dancing Script', cursive;
+    color: #c1ab84 !important;
+    font-size:28px;
+    padding-bottom: 30px;
+}
+.info-sheef p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #686868;
+   
+    word-spacing: 5px;
+    padding-bottom: 20px;
+   line-height: 25px;
+    
+}
+ .icon-list i{
+width: 50px;
+height: 50px;
+text-align: center;
+margin-bottom:30px;
+ border-radius: 100%;
+ background-color: #c1ab84;
+ line-height: 52px;
+ font-size: 15px;
+ color: white;
+
+}
+.icon-list-text{
+    
+    font-size: 18px;
+    color: #686868;
+}/*end sheef section*/
+
+/*start resturant section*/
+.resturant{
+    padding-top:10px;
+}
+.info-resturant{
+    padding-top: 50px;
+    width: 60%;
+    float: left;
+    padding-left: 40px;
+   
+}
+
+.resturant-img{
+width:40%;
+float: left;           
+}
+.resturant-img img{
+    width: 80%;
+   padding-top: 60px;
+    padding-left: 50px;
+}
+.info-resturant h2{
+    color: #253048;
+    font-size: 36px;
+    
+    padding: 20px 20px;
+    font-weight: 400;
+}
+.info-resturant h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    padding: 20px 20px;
+    font-weight: 400;
+    color:  #c1ab84 ;
+    
+}
+.info-resturant p{
+    padding: 20px 20px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #686868;
+}
+.icon-like span{
+  line-height: 30px;  
+  padding: 10%px 10%;
+  font-size: 18px;
+  font-weight: 400;
+  color: #686868;
+
+}
+.icon-like i{
+    color: #c1ab84;
+    padding-left: 20px;
+}
+
+/*end resturant section*/
+
+/*start resturant-img-discription
+ section*/
+.resturant-img-discription{
+background-image: url('../img/shutterstock_280369721.jpg');
+width: 100%;
+background-position: -1% -2%;
+background-size: cover;
+background-attachment: fixed;
+margin-top: 50px;
+}/*end resturant-img-discription
+ section*/
+
+
+ /*start trend-meal section*/
+ 
+ 
+ .discription-meals{
+    text-align: center;
+    line-height: 50px;
+    padding: 50px 50px;
+
+ }
+ .discription-meals h2{
+    color: #253048;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "Alegreya";
+ }
+ .discription-meals h3{
+   font-family: 'Dancing Script', cursive;
+   color: #c1ab84;
+   font-weight: 400;
+   font-size: 24px;
+   padding-top: 20px;
+ }
+ .meal img{
+    width: 100%;
+ }
+ .meal{
+    float: left;
+    padding-left: 40px ;
+    width: 32%;
+    margin-bottom: 70px;
+    }
+    .meal .info{
+      text-align: center; 
+      padding-top: 20px;
+      line-height: 35px; 
+    }
+    .meal .info h4{
+        color: #253048;
+        font-size: 21px;
+        font-weight: 400;
+    }
+        .meal .info p{
+        font-size: 16px;
+        font-weight: 400;
+        color: #686868;
+       
+    }/*end trend-meal section*/
+    
+    .view{
+        font-size: 20px;
+        margin-left: 45%;
+         text-align: center;
+        background-color:#c1ab84;
+         color: #fff;
+         border-radius: 4px;
+         padding: 11px 5px;
+        border: 2px solid transparent;
+        margin-bottom: 50%;
+    }
+
+    /*start Geographical-location*/
+
+    .discription-site{
+        width: 50%;
+        float: left;
+    }
+        .address{
+        line-height:40px;
+        padding-top: 150px;
+        padding-left: 90px;   
+        }
+        .address h2{
+            color: #253048;
+            font-size: 36px;
+            font-weight: 400;
+        }
+        .address p{
+            font-size: 18px;
+            font-weight: 400;
+            color: #686868;
+        }
+
+    .icon-list p{
+     padding:30px 90px ;
+     font-size: 18px;
+     font-weight: 400;
+    color: #686868;
+    }
+    .discription-site .icon-list ul{
+     padding-left: 90px;
+    }
+    .map{
+        width: 50%;
+        float: left;
+        padding: 200px 80px;
+       
+        
+    }
+    iframe{
+        width: 100%;
+    }
+    /*end Geographical-location */
+
+    /* start footer*/
+    
+    .footer {
+        display: inline-block;
+        background-color: #686868;
+    }
+    .footer .infor{
+        width: 25%;
+        float: left;
+        padding-left: 30px;
+    }
+    .infor .title{
+        font-size: 20px;
+        color: #fff;
+        margin-bottom: 25px;
+        font-weight: 400;
+        
+    }
+    .infor p{
+        margin-bottom: 20px;
+        color: #969696;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .icon li{
+    margin-bottom: 6px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+   
+    }
+    .Contact-Details-item li{
+        margin-bottom: 6px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+       
+        }
+
+    .icon  a{
+        font-size: 16px;
+        color: #A9A9A9; 
+        
+    }
+    .icon span{
+        margin-right: 10px;
+    }
+    .Contact-Details-item i{
+        font-size: 18px;
+        color: #969696;
+    }
+
+    .Contact-Details-item span{
+        color: #969696;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .Contact-Details-item  li {
+        color: #A9A9A9;
+        
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+    .Contact-Details-item a{
+        color: #A9A9A9;
+        font-size: 16px;
+        
+
+    }
+    .Contact-Details-item {
+        background-image: url('../img/contact-details-map.png');
+       background-size: cover;
+       text-align: center;
+    }
+    .footer{
+        padding-top: 50px;
+    display: inline-block;
+    background-color: #403d38;
+    
+    } /*end footer*/
+   
+    /*start footer img*/
+    .footer-end{
+        
+        margin-top: -5px;
+        padding-bottom: 40px;
+        background-color: #353330;
+        text-align: center;
+    }
+
+    .footer-end p{
+        font-size: 18px;
+        color: #777;
+        font-weight: 400;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .footer-icon i{
+     margin-left: 10px;
+     background-color: #484540;
+     width: 50px;
+    
+    text-align: center;
+    margin-bottom:30px;
+    border-radius: 100%;
+    line-height: 52px;
+     font-size: 30px;
+     color: #8c8a86;
+    }
+    .footer-icon i:hover{
+        background-color: #253548;
+        color: white;
+    }
